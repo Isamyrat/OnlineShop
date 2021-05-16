@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="OnlineShopDB">
+  <database-model serializer="dbm" dbms="H2" family-id="H2" format-version="4.19">
+    <root id="1">
+      <ServerVersion>1.4.200</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ONLINESHOPDB">
+      <Current>1</Current>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+    </schema>
+    <user id="5" parent="2" name="USER">
+      <ObjectId>2</ObjectId>
+      <Admin>1</Admin>
+    </user>
+    <role id="6" parent="2" name="PUBLIC">
+      <ObjectId>0</ObjectId>
+      <AutoCreated>1</AutoCreated>
+    </role>
+    <collation id="7" parent="2" name="ALBANIAN"/>
+    <collation id="8" parent="2" name="ALBANIAN_ALBANIA"/>
+    <collation id="9" parent="2" name="ARABIC"/>
+    <collation id="10" parent="2" name="ARABIC_ALGERIA"/>
+    <collation id="11" parent="2" name="ARABIC_BAHRAIN"/>
+    <collation id="12" parent="2" name="ARABIC_EGYPT"/>
+    <collation id="13" parent="2" name="ARABIC_IRAQ"/>
+    <collation id="14" parent="2" name="ARABIC_JORDAN"/>
+    <collation id="15" parent="2" name="ARABIC_KUWAIT"/>
+    <collation id="16" parent="2" name="ARABIC_LEBANON"/>
+    <collation id="17" parent="2" name="ARABIC_LIBYA"/>
+    <collation id="18" parent="2" name="ARABIC_MOROCCO"/>
+    <collation id="19" parent="2" name="ARABIC_OMAN"/>
+    <collation id="20" parent="2" name="ARABIC_QATAR"/>
+    <collation id="21" parent="2" name="ARABIC_SAUDI_ARABIA"/>
+    <collation id="22" parent="2" name="ARABIC_SUDAN"/>
+    <collation id="23" parent="2" name="ARABIC_SYRIA"/>
+    <collation id="24" parent="2" name="ARABIC_TUNISIA"/>
+    <collation id="25" parent="2" name="ARABIC_UNITED_ARAB_EMIRATES"/>
+    <collation id="26" parent="2" name="ARABIC_YEMEN"/>
+    <collation id="27" parent="2" name="BELARUSIAN"/>
+    <collation id="28" parent="2" name="BELARUSIAN_BELARUS"/>
+    <collation id="29" parent="2" name="BULGARIAN"/>
+    <collation id="30" parent="2" name="BULGARIAN_BULGARIA"/>
+    <collation id="31" parent="2" name="CATALAN"/>
+    <collation id="32" parent="2" name="CATALAN_SPAIN"/>
+    <collation id="33" parent="2" name="CHINESE"/>
+    <collation id="34" parent="2" name="CHINESE_CHINA"/>
+    <collation id="35" parent="2" name="CHINESE_HONG_KONG_SAR_CHINA"/>
+    <collation id="36" parent="2" name="CHINESE_SINGAPORE"/>
+    <collation id="37" parent="2" name="CHINESE_TAIWAN"/>
+    <collation id="38" parent="2" name="CROATIAN"/>
+    <collation id="39" parent="2" name="CROATIAN_CROATIA"/>
+    <collation id="40" parent="2" name="CZECH"/>
+    <collation id="41" parent="2" name="CZECH_CZECHIA"/>
+    <collation id="42" parent="2" name="DANISH"/>
+    <collation id="43" parent="2" name="DANISH_DENMARK"/>
+    <collation id="44" parent="2" name="DUTCH"/>
+    <collation id="45" parent="2" name="DUTCH_BELGIUM"/>
+    <collation id="46" parent="2" name="DUTCH_NETHERLANDS"/>
+    <collation id="47" parent="2" name="ENGLISH"/>
+    <collation id="48" parent="2" name="ENGLISH_AUSTRALIA"/>
+    <collation id="49" parent="2" name="ENGLISH_CANADA"/>
+    <collation id="50" parent="2" name="ENGLISH_INDIA"/>
+    <collation id="51" parent="2" name="ENGLISH_IRELAND"/>
+    <collation id="52" parent="2" name="ENGLISH_MALTA"/>
+    <collation id="53" parent="2" name="ENGLISH_NEW_ZEALAND"/>
+    <collation id="54" parent="2" name="ENGLISH_PHILIPPINES"/>
+    <collation id="55" parent="2" name="ENGLISH_SINGAPORE"/>
+    <collation id="56" parent="2" name="ENGLISH_SOUTH_AFRICA"/>
+    <collation id="57" parent="2" name="ENGLISH_UNITED_KINGDOM"/>
+    <collation id="58" parent="2" name="ENGLISH_UNITED_STATES"/>
+    <collation id="59" parent="2" name="ESTONIAN"/>
+    <collation id="60" parent="2" name="ESTONIAN_ESTONIA"/>
+    <collation id="61" parent="2" name="FINNISH"/>
+    <collation id="62" parent="2" name="FINNISH_FINLAND"/>
+    <collation id="63" parent="2" name="FRENCH"/>
+    <collation id="64" parent="2" name="FRENCH_BELGIUM"/>
+    <collation id="65" parent="2" name="FRENCH_CANADA"/>
+    <collation id="66" parent="2" name="FRENCH_FRANCE"/>
+    <collation id="67" parent="2" name="FRENCH_LUXEMBOURG"/>
+    <collation id="68" parent="2" name="FRENCH_SWITZERLAND"/>
+    <collation id="69" parent="2" name="GERMAN"/>
+    <collation id="70" parent="2" name="GERMAN_AUSTRIA"/>
+    <collation id="71" parent="2" name="GERMAN_GERMANY"/>
+    <collation id="72" parent="2" name="GERMAN_LUXEMBOURG"/>
+    <collation id="73" parent="2" name="GERMAN_SWITZERLAND"/>
+    <collation id="74" parent="2" name="GREEK"/>
+    <collation id="75" parent="2" name="GREEK_CYPRUS"/>
+    <collation id="76" parent="2" name="GREEK_GREECE"/>
+    <collation id="77" parent="2" name="HEBREW"/>
+    <collation id="78" parent="2" name="HEBREW_ISRAEL"/>
+    <collation id="79" parent="2" name="HINDI"/>
+    <collation id="80" parent="2" name="HINDI_INDIA"/>
+    <collation id="81" parent="2" name="HUNGARIAN"/>
+    <collation id="82" parent="2" name="HUNGARIAN_HUNGARY"/>
+    <collation id="83" parent="2" name="ICELANDIC"/>
+    <collation id="84" parent="2" name="ICELANDIC_ICELAND"/>
+    <collation id="85" parent="2" name="INDONESIAN"/>
+    <collation id="86" parent="2" name="INDONESIAN_INDONESIA"/>
+    <collation id="87" parent="2" name="IRISH"/>
+    <collation id="88" parent="2" name="IRISH_IRELAND"/>
+    <collation id="89" parent="2" name="ITALIAN"/>
+    <collation id="90" parent="2" name="ITALIAN_ITALY"/>
+    <collation id="91" parent="2" name="ITALIAN_SWITZERLAND"/>
+    <collation id="92" parent="2" name="JAPANESE"/>
+    <collation id="93" parent="2" name="JAPANESE_JAPAN"/>
+    <collation id="94" parent="2" name="JAPANESE_JAPAN_JP"/>
+    <collation id="95" parent="2" name="KOREAN"/>
+    <collation id="96" parent="2" name="KOREAN_SOUTH_KOREA"/>
+    <collation id="97" parent="2" name="LATVIAN"/>
+    <collation id="98" parent="2" name="LATVIAN_LATVIA"/>
+    <collation id="99" parent="2" name="LITHUANIAN"/>
+    <collation id="100" parent="2" name="LITHUANIAN_LITHUANIA"/>
+    <collation id="101" parent="2" name="MACEDONIAN"/>
+    <collation id="102" parent="2" name="MACEDONIAN_MACEDONIA"/>
+    <collation id="103" parent="2" name="MALAY"/>
+    <collation id="104" parent="2" name="MALAY_MALAYSIA"/>
+    <collation id="105" parent="2" name="MALTESE"/>
+    <collation id="106" parent="2" name="MALTESE_MALTA"/>
+    <collation id="107" parent="2" name="NORWEGIAN"/>
+    <collation id="108" parent="2" name="NORWEGIAN_BOKMÅL"/>
+    <collation id="109" parent="2" name="NORWEGIAN_BOKMÅL_NORWAY"/>
+    <collation id="110" parent="2" name="NORWEGIAN_NORWAY"/>
+    <collation id="111" parent="2" name="NORWEGIAN_NORWAY_NY"/>
+    <collation id="112" parent="2" name="NORWEGIAN_NYNORSK_NORWAY"/>
+    <collation id="113" parent="2" name="POLISH"/>
+    <collation id="114" parent="2" name="POLISH_POLAND"/>
+    <collation id="115" parent="2" name="PORTUGUESE"/>
+    <collation id="116" parent="2" name="PORTUGUESE_BRAZIL"/>
+    <collation id="117" parent="2" name="PORTUGUESE_PORTUGAL"/>
+    <collation id="118" parent="2" name="ROMANIAN"/>
+    <collation id="119" parent="2" name="ROMANIAN_ROMANIA"/>
+    <collation id="120" parent="2" name="RUSSIAN"/>
+    <collation id="121" parent="2" name="RUSSIAN_RUSSIA"/>
+    <collation id="122" parent="2" name="SERBIAN"/>
+    <collation id="123" parent="2" name="SERBIAN_BOSNIA_&amp;_HERZEGOVINA"/>
+    <collation id="124" parent="2" name="SERBIAN_MONTENEGRO"/>
+    <collation id="125" parent="2" name="SERBIAN_SERBIA"/>
+    <collation id="126" parent="2" name="SERBIAN_SERBIA_AND_MONTENEGRO"/>
+    <collation id="127" parent="2" name="SLOVAK"/>
+    <collation id="128" parent="2" name="SLOVAK_SLOVAKIA"/>
+    <collation id="129" parent="2" name="SLOVENIAN"/>
+    <collation id="130" parent="2" name="SLOVENIAN_SLOVENIA"/>
+    <collation id="131" parent="2" name="SPANISH"/>
+    <collation id="132" parent="2" name="SPANISH_ARGENTINA"/>
+    <collation id="133" parent="2" name="SPANISH_BOLIVIA"/>
+    <collation id="134" parent="2" name="SPANISH_CHILE"/>
+    <collation id="135" parent="2" name="SPANISH_COLOMBIA"/>
+    <collation id="136" parent="2" name="SPANISH_COSTA_RICA"/>
+    <collation id="137" parent="2" name="SPANISH_CUBA"/>
+    <collation id="138" parent="2" name="SPANISH_DOMINICAN_REPUBLIC"/>
+    <collation id="139" parent="2" name="SPANISH_ECUADOR"/>
+    <collation id="140" parent="2" name="SPANISH_EL_SALVADOR"/>
+    <collation id="141" parent="2" name="SPANISH_GUATEMALA"/>
+    <collation id="142" parent="2" name="SPANISH_HONDURAS"/>
+    <collation id="143" parent="2" name="SPANISH_MEXICO"/>
+    <collation id="144" parent="2" name="SPANISH_NICARAGUA"/>
+    <collation id="145" parent="2" name="SPANISH_PANAMA"/>
+    <collation id="146" parent="2" name="SPANISH_PARAGUAY"/>
+    <collation id="147" parent="2" name="SPANISH_PERU"/>
+    <collation id="148" parent="2" name="SPANISH_PUERTO_RICO"/>
+    <collation id="149" parent="2" name="SPANISH_SPAIN"/>
+    <collation id="150" parent="2" name="SPANISH_UNITED_STATES"/>
+    <collation id="151" parent="2" name="SPANISH_URUGUAY"/>
+    <collation id="152" parent="2" name="SPANISH_VENEZUELA"/>
+    <collation id="153" parent="2" name="SWEDISH"/>
+    <collation id="154" parent="2" name="SWEDISH_SWEDEN"/>
+    <collation id="155" parent="2" name="THAI"/>
+    <collation id="156" parent="2" name="THAI_THAILAND"/>
+    <collation id="157" parent="2" name="THAI_THAILAND_TH"/>
+    <collation id="158" parent="2" name="TURKISH"/>
+    <collation id="159" parent="2" name="TURKISH_TURKEY"/>
+    <collation id="160" parent="2" name="UKRAINIAN"/>
+    <collation id="161" parent="2" name="UKRAINIAN_UKRAINE"/>
+    <collation id="162" parent="2" name="VIETNAMESE"/>
+    <collation id="163" parent="2" name="VIETNAMESE_VIETNAM"/>
+    <sequence id="164" parent="4" name="SYSTEM_SEQUENCE_0D1BA2C6_4925_4387_87EA_A208432A9EBC">
+      <ObjectId>4</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="165" parent="4" name="SYSTEM_SEQUENCE_114B8E63_3221_41FF_9D10_03B0A662A796">
+      <ObjectId>22</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="166" parent="4" name="SYSTEM_SEQUENCE_1B137335_62FF_46EC_A250_6C2489C09757">
+      <ObjectId>36</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="167" parent="4" name="SYSTEM_SEQUENCE_2BD51379_EA65_471A_9E2E_3E75F27C3926">
+      <ObjectId>14</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="168" parent="4" name="SYSTEM_SEQUENCE_5839CC1E_CD6B_4E63_97DC_3AC59E141F13">
+      <ObjectId>28</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="169" parent="4" name="SYSTEM_SEQUENCE_61444870_828B_42D1_8965_E60420303843">
+      <ObjectId>56</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="170" parent="4" name="SYSTEM_SEQUENCE_687F0CD7_3E0B_42F3_BDC0_1ADDE2D020A8">
+      <ObjectId>8</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="171" parent="4" name="SYSTEM_SEQUENCE_79BC34D1_95A4_4C44_BDAF_59C0F61AA967">
+      <ObjectId>18</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="172" parent="4" name="SYSTEM_SEQUENCE_7FA55107_30D6_4C2E_8D39_406DC4ED5253">
+      <ObjectId>94</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="173" parent="4" name="SYSTEM_SEQUENCE_A167C637_0645_4F42_BADD_B1844BF2D222">
+      <ObjectId>76</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="174" parent="4" name="SYSTEM_SEQUENCE_B28BDCF5_D2A4_4831_98DC_A17B591048AD">
+      <ObjectId>42</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="175" parent="4" name="SYSTEM_SEQUENCE_CFE9D6A0_6156_4F61_8511_53576BCDF958">
+      <ObjectId>62</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="176" parent="4" name="SYSTEM_SEQUENCE_DE8D87D2_FE28_4BE1_BC5F_D41BC7FFEA68">
+      <ObjectId>70</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="177" parent="4" name="SYSTEM_SEQUENCE_E92EBF7D_D430_41B5_A5E8_ED3E21904143">
+      <ObjectId>84</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <table id="178" parent="4" name="ADS">
+      <ObjectId>93</ObjectId>
+    </table>
+    <table id="179" parent="4" name="BASKET">
+      <ObjectId>21</ObjectId>
+    </table>
+    <table id="180" parent="4" name="BASKET_DEVICE">
+      <ObjectId>61</ObjectId>
+    </table>
+    <table id="181" parent="4" name="BRAND">
+      <ObjectId>17</ObjectId>
+    </table>
+    <table id="182" parent="4" name="CATEGORY">
+      <ObjectId>27</ObjectId>
+    </table>
+    <table id="183" parent="4" name="DEVICE">
+      <ObjectId>41</ObjectId>
+    </table>
+    <table id="184" parent="4" name="DEVICE_INFORMATION">
+      <ObjectId>55</ObjectId>
+    </table>
+    <table id="185" parent="4" name="ORDERS">
+      <ObjectId>83</ObjectId>
+    </table>
+    <table id="186" parent="4" name="PERSONAL_INFORMATION">
+      <ObjectId>7</ObjectId>
+    </table>
+    <table id="187" parent="4" name="PICK_UP_POINT">
+      <ObjectId>75</ObjectId>
+    </table>
+    <table id="188" parent="4" name="RATING">
+      <ObjectId>69</ObjectId>
+    </table>
+    <table id="189" parent="4" name="SUBCATEGORY">
+      <ObjectId>35</ObjectId>
+    </table>
+    <table id="190" parent="4" name="TYPE">
+      <ObjectId>13</ObjectId>
+    </table>
+    <table id="191" parent="4" name="USER">
+      <ObjectId>3</ObjectId>
+    </table>
+    <column id="192" parent="178" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="193" parent="178" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="194" parent="178" name="CITY_ADDRESS">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="195" parent="178" name="STREET_ADDRESS">
+      <Position>4</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="196" parent="178" name="DESCRIPTION">
+      <Position>5</Position>
+      <DataType>VARCHAR(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="197" parent="178" name="PRICE">
+      <Position>6</Position>
+      <DataType>DOUBLE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="178" name="CREATE_AT">
+      <Position>7</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="199" parent="178" name="IMG">
+      <Position>8</Position>
+      <DataType>JSON|0s</DataType>
+    </column>
+    <column id="200" parent="178" name="YEAR">
+      <Position>9</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="201" parent="178" name="CATEGORY_ID">
+      <Position>10</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="202" parent="178" name="USER_ID">
+      <Position>11</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="203" parent="178" name="PRIMARY_KEY_FC">
+      <ObjectId>95</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>68</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="204" parent="178" name="CONSTRAINT_INDEX_F">
+      <ObjectId>97</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>75</SourceTextLength>
+      <ColNames>CATEGORY_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="205" parent="178" name="CONSTRAINT_INDEX_FC">
+      <ObjectId>99</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>72</SourceTextLength>
+      <ColNames>USER_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="206" parent="178" name="CONSTRAINT_FC">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="207" parent="178" name="CONSTRAINT_FC9">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CATEGORY_ID</ColNames>
+      <RefTableName>CATEGORY</RefTableName>
+      <RefKeyName>PRIMARY_KEY_31</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="208" parent="178" name="CONSTRAINT_FC90_0">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>USER_ID</ColNames>
+      <RefTableName>USER</RefTableName>
+      <RefKeyName>PRIMARY_KEY_2</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="209" parent="179" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="210" parent="179" name="USER_ID">
+      <Position>2</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="211" parent="179" name="PRIMARY_KEY_7">
+      <ObjectId>23</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>70</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="212" parent="179" name="CONSTRAINT_INDEX_7">
+      <ObjectId>25</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>74</SourceTextLength>
+      <ColNames>USER_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="213" parent="179" name="CONSTRAINT_7">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="214" parent="179" name="CONSTRAINT_74">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>USER_ID</ColNames>
+      <RefTableName>USER</RefTableName>
+      <RefKeyName>PRIMARY_KEY_2</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="215" parent="180" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="216" parent="180" name="DEVICE_ID">
+      <Position>2</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="217" parent="180" name="BASKET_ID">
+      <Position>3</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="218" parent="180" name="PRIMARY_KEY_6">
+      <ObjectId>63</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>77</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="219" parent="180" name="CONSTRAINT_INDEX_6">
+      <ObjectId>65</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>83</SourceTextLength>
+      <ColNames>DEVICE_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="220" parent="180" name="CONSTRAINT_INDEX_6F">
+      <ObjectId>67</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>84</SourceTextLength>
+      <ColNames>BASKET_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="221" parent="180" name="CONSTRAINT_6">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="222" parent="180" name="CONSTRAINT_6F">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DEVICE_ID</ColNames>
+      <RefTableName>DEVICE</RefTableName>
+      <RefKeyName>PRIMARY_KEY_77</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="223" parent="180" name="CONSTRAINT_6F4">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>BASKET_ID</ColNames>
+      <RefTableName>BASKET</RefTableName>
+      <RefKeyName>PRIMARY_KEY_7</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="224" parent="181" name="ID">
+      <Position>1</Position>
+      <DataType>INT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="225" parent="181" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <index id="226" parent="181" name="PRIMARY_KEY_3">
+      <ObjectId>19</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>69</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="227" parent="181" name="CONSTRAINT_3">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="228" parent="182" name="ID">
+      <Position>1</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="229" parent="182" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="230" parent="182" name="TYPE_ID">
+      <Position>3</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="231" parent="182" name="BRAND_ID">
+      <Position>4</Position>
+      <DataType>INT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="232" parent="182" name="PRIMARY_KEY_31">
+      <ObjectId>29</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>73</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="233" parent="182" name="CONSTRAINT_INDEX_31">
+      <ObjectId>33</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>77</SourceTextLength>
+      <ColNames>TYPE_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="234" parent="182" name="CONSTRAINT_INDEX_3">
+      <ObjectId>31</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>77</SourceTextLength>
+      <ColNames>BRAND_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="235" parent="182" name="CONSTRAINT_31">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="236" parent="182" name="CONSTRAINT_31A8">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>TYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefKeyName>PRIMARY_KEY_27</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="237" parent="182" name="CONSTRAINT_31A">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>BRAND_ID</ColNames>
+      <RefTableName>BRAND</RefTableName>
+      <RefKeyName>PRIMARY_KEY_3</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="238" parent="183" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="239" parent="183" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="240" parent="183" name="YEAR">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="241" parent="183" name="IMG">
+      <Position>4</Position>
+      <DataType>JSON|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="242" parent="183" name="COUNT">
+      <Position>5</Position>
+      <DataType>INT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="243" parent="183" name="PRICE">
+      <Position>6</Position>
+      <DataType>DOUBLE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="244" parent="183" name="RATING">
+      <Position>7</Position>
+      <DataType>TINYINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="245" parent="183" name="CREATE_AT">
+      <Position>8</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="246" parent="183" name="TYPE_ID">
+      <Position>9</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="247" parent="183" name="BRAND_ID">
+      <Position>10</Position>
+      <DataType>INT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="248" parent="183" name="CATEGORY_ID">
+      <Position>11</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="249" parent="183" name="SUBCATEGORY_ID">
+      <Position>12</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="250" parent="183" name="PICK_UP_POINT_ID">
+      <Position>13</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="251" parent="183" name="PRIMARY_KEY_77">
+      <ObjectId>43</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>71</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="252" parent="183" name="CONSTRAINT_INDEX_77F">
+      <ObjectId>47</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>76</SourceTextLength>
+      <ColNames>TYPE_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="253" parent="183" name="CONSTRAINT_INDEX_77FE">
+      <ObjectId>49</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>78</SourceTextLength>
+      <ColNames>BRAND_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="254" parent="183" name="CONSTRAINT_INDEX_77FE1">
+      <ObjectId>51</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>82</SourceTextLength>
+      <ColNames>CATEGORY_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="255" parent="183" name="CONSTRAINT_INDEX_77FE12">
+      <ObjectId>53</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>86</SourceTextLength>
+      <ColNames>SUBCATEGORY_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="256" parent="183" name="CONSTRAINT_INDEX_77">
+      <ObjectId>45</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>84</SourceTextLength>
+      <ColNames>PICK_UP_POINT_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="257" parent="183" name="CONSTRAINT_77">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="258" parent="183" name="CONSTRAINT_77FE">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>TYPE_ID</ColNames>
+      <RefTableName>TYPE</RefTableName>
+      <RefKeyName>PRIMARY_KEY_27</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="259" parent="183" name="CONSTRAINT_77FE1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>BRAND_ID</ColNames>
+      <RefTableName>BRAND</RefTableName>
+      <RefKeyName>PRIMARY_KEY_3</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="260" parent="183" name="CONSTRAINT_77FE12">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CATEGORY_ID</ColNames>
+      <RefTableName>CATEGORY</RefTableName>
+      <RefKeyName>PRIMARY_KEY_31</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="261" parent="183" name="CONSTRAINT_77FE125">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SUBCATEGORY_ID</ColNames>
+      <RefTableName>SUBCATEGORY</RefTableName>
+      <RefKeyName>PRIMARY_KEY_C</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="262" parent="183" name="CONSTRAINT_77F">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PICK_UP_POINT_ID</ColNames>
+      <RefTableName>PICK_UP_POINT</RefTableName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="263" parent="184" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="264" parent="184" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="265" parent="184" name="DESCRIPTION">
+      <Position>3</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="266" parent="184" name="DEVICE_ID">
+      <Position>4</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="267" parent="184" name="PRIMARY_KEY_9">
+      <ObjectId>57</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>82</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="268" parent="184" name="CONSTRAINT_INDEX_9">
+      <ObjectId>59</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>88</SourceTextLength>
+      <ColNames>DEVICE_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="269" parent="184" name="CONSTRAINT_9">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="270" parent="184" name="CONSTRAINT_92">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DEVICE_ID</ColNames>
+      <RefTableName>DEVICE</RefTableName>
+      <RefKeyName>PRIMARY_KEY_77</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="271" parent="185" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="272" parent="185" name="CREATE_AT">
+      <Position>2</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="273" parent="185" name="USER_ID">
+      <Position>3</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="274" parent="185" name="DEVICE_ID">
+      <Position>4</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="275" parent="185" name="PICK_UP_POINT_ID">
+      <Position>5</Position>
+      <DataType>SMALLINT|0s</DataType>
+    </column>
+    <index id="276" parent="185" name="PRIMARY_KEY_8B">
+      <ObjectId>85</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>71</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="277" parent="185" name="CONSTRAINT_INDEX_8B7">
+      <ObjectId>89</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>76</SourceTextLength>
+      <ColNames>USER_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="278" parent="185" name="CONSTRAINT_INDEX_8B72">
+      <ObjectId>91</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>79</SourceTextLength>
+      <ColNames>DEVICE_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="279" parent="185" name="CONSTRAINT_INDEX_8B">
+      <ObjectId>87</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>84</SourceTextLength>
+      <ColNames>PICK_UP_POINT_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="280" parent="185" name="CONSTRAINT_8B">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="281" parent="185" name="CONSTRAINT_8B72">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>USER_ID</ColNames>
+      <RefTableName>USER</RefTableName>
+      <RefKeyName>PRIMARY_KEY_2</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="282" parent="185" name="CONSTRAINT_8B725">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DEVICE_ID</ColNames>
+      <RefTableName>DEVICE</RefTableName>
+      <RefKeyName>PRIMARY_KEY_77</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="283" parent="185" name="CONSTRAINT_8B7">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PICK_UP_POINT_ID</ColNames>
+      <RefTableName>PICK_UP_POINT</RefTableName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="284" parent="186" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="285" parent="186" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+    </column>
+    <column id="286" parent="186" name="SURNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+    </column>
+    <column id="287" parent="186" name="PATRONYMIC">
+      <Position>4</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+    </column>
+    <column id="288" parent="186" name="DATE_OF_BIRTHDAY">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="289" parent="186" name="PHONE_NUMBER">
+      <Position>6</Position>
+      <DataType>VARCHAR(35)|0s</DataType>
+    </column>
+    <column id="290" parent="186" name="USER_ID">
+      <Position>7</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="291" parent="186" name="PRIMARY_KEY_E">
+      <ObjectId>9</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>84</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="292" parent="186" name="CONSTRAINT_INDEX_E">
+      <ObjectId>11</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>88</SourceTextLength>
+      <ColNames>USER_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="293" parent="186" name="CONSTRAINT_E">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="294" parent="186" name="CONSTRAINT_E4">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>USER_ID</ColNames>
+      <RefTableName>USER</RefTableName>
+      <RefKeyName>PRIMARY_KEY_2</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="295" parent="187" name="ID">
+      <Position>1</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="296" parent="187" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="297" parent="187" name="TIME">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="298" parent="187" name="CITY_ADDRESS">
+      <Position>4</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="299" parent="187" name="STREET_ADDRESS">
+      <Position>5</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="300" parent="187" name="HOUSE_ADDRESS">
+      <Position>6</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="301" parent="187" name="OFFICE_ADDRESS">
+      <Position>7</Position>
+      <DataType>VARCHAR(20)|0s</DataType>
+    </column>
+    <column id="302" parent="187" name="RATING">
+      <Position>8</Position>
+      <DataType>TINYINT|0s</DataType>
+    </column>
+    <column id="303" parent="187" name="REVIEW">
+      <Position>9</Position>
+      <DataType>NVARCHAR(15000)|0s</DataType>
+    </column>
+    <index id="304" parent="187" name="PRIMARY_KEY_F">
+      <ObjectId>77</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>77</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="305" parent="187" name="CONSTRAINT_F">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="306" parent="188" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="307" parent="188" name="RATING">
+      <Position>2</Position>
+      <DataType>TINYINT|0s</DataType>
+    </column>
+    <column id="308" parent="188" name="REVIEW">
+      <Position>3</Position>
+      <DataType>NVARCHAR(15000)|0s</DataType>
+    </column>
+    <column id="309" parent="188" name="USER_ID">
+      <Position>4</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="310" parent="188" name="DEVICE_ID">
+      <Position>5</Position>
+      <DataType>BIGINT|0s</DataType>
+    </column>
+    <column id="311" parent="188" name="PICK_UP_POINT_ID">
+      <Position>6</Position>
+      <DataType>SMALLINT|0s</DataType>
+    </column>
+    <index id="312" parent="188" name="PRIMARY_KEY_8">
+      <ObjectId>71</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>70</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="313" parent="188" name="CONSTRAINT_INDEX_8F">
+      <ObjectId>79</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>75</SourceTextLength>
+      <ColNames>USER_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="314" parent="188" name="CONSTRAINT_INDEX_8FA">
+      <ObjectId>81</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>78</SourceTextLength>
+      <ColNames>DEVICE_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="315" parent="188" name="CONSTRAINT_INDEX_8">
+      <ObjectId>73</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>83</SourceTextLength>
+      <ColNames>PICK_UP_POINT_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="316" parent="188" name="CONSTRAINT_8">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="317" parent="188" name="CONSTRAINT_8FA">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>USER_ID</ColNames>
+      <RefTableName>USER</RefTableName>
+      <RefKeyName>PRIMARY_KEY_2</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="318" parent="188" name="CONSTRAINT_8FA8">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DEVICE_ID</ColNames>
+      <RefTableName>DEVICE</RefTableName>
+      <RefKeyName>PRIMARY_KEY_77</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="319" parent="188" name="CONSTRAINT_8F">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>PICK_UP_POINT_ID</ColNames>
+      <RefTableName>PICK_UP_POINT</RefTableName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="320" parent="189" name="ID">
+      <Position>1</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="321" parent="189" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <column id="322" parent="189" name="CATEGORY_ID">
+      <Position>3</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="323" parent="189" name="PRIMARY_KEY_C">
+      <ObjectId>37</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>75</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <index id="324" parent="189" name="CONSTRAINT_INDEX_C">
+      <ObjectId>39</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>83</SourceTextLength>
+      <ColNames>CATEGORY_ID</ColNames>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="325" parent="189" name="CONSTRAINT_C">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="326" parent="189" name="CONSTRAINT_CD">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CATEGORY_ID</ColNames>
+      <RefTableName>CATEGORY</RefTableName>
+      <RefKeyName>PRIMARY_KEY_31</RefKeyName>
+      <RefColNames>ID</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="327" parent="190" name="ID">
+      <Position>1</Position>
+      <DataType>SMALLINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="328" parent="190" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+    </column>
+    <index id="329" parent="190" name="PRIMARY_KEY_27">
+      <ObjectId>15</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>69</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="330" parent="190" name="CONSTRAINT_27">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="331" parent="191" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="332" parent="191" name="EMAIL">
+      <Position>2</Position>
+      <DataType>VARCHAR(35)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="333" parent="191" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>VARCHAR(15)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="334" parent="191" name="ROLE">
+      <Position>4</Position>
+      <DataType>VARCHAR(10)|0s</DataType>
+    </column>
+    <column id="335" parent="191" name="CREATE_AT">
+      <Position>5</Position>
+      <DataType>TIMESTAMP|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="336" parent="191" name="PRIMARY_KEY_2">
+      <ObjectId>5</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SourceTextLength>68</SourceTextLength>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <AutoCreated>1</AutoCreated>
+    </index>
+    <key id="337" parent="191" name="CONSTRAINT_2">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
