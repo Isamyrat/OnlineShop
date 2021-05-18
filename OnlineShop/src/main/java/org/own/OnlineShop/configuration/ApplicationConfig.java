@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 import org.springframework.core.env.Environment;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
@@ -15,10 +16,13 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages = {"org.own.OnlineShop.model"})
+@ComponentScan(basePackages = {"org.own.OnlineShop.model",
+        "org.own.OnlineShop.Repository",
+        "org.own.OnlineShop.service"})
 @PropertySource({"classpath:application.properties"})
 @EnableTransactionManagement
 @EnableAspectJAutoProxy(proxyTargetClass = true)
+@EnableJpaRepositories(basePackages = "org.own.OnlineShop.Repository")
 public class ApplicationConfig {
 
     @Autowired
