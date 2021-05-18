@@ -1,5 +1,7 @@
 package org.own.OnlineShop.model;
 
+import org.own.OnlineShop.model.enums.Roles;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
@@ -17,8 +19,9 @@ public class User {
     @Column(name = "password")
     private String password;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "role")
-    private String role;
+    private Roles role;
 
     @Column(name = "create_at")
     private Date createAt;
@@ -108,11 +111,11 @@ public class User {
         this.password = password;
     }
 
-    public String getRole() {
+    public Roles getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(Roles role) {
         this.role = role;
     }
 

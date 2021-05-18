@@ -1,5 +1,9 @@
 package org.own.OnlineShop.model;
 
+import org.own.OnlineShop.model.enums.Status;
+import org.own.OnlineShop.model.enums.TypeOfDelivery;
+import org.own.OnlineShop.model.enums.TypeOfPayment;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -24,6 +28,19 @@ public class Orders {
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "pick_up_point_id", nullable = false)
     private PickUpPoint pickUpPointOrders;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status")
+    private Status status;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "type_of_payment")
+    private TypeOfPayment typeOfPayment;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "type_of_delivery_services")
+    private TypeOfDelivery typeOfDelivery;
+
 
     public Orders() {
     }
@@ -66,5 +83,29 @@ public class Orders {
 
     public void setPickUpPointOrders(PickUpPoint pickUpPointOrders) {
         this.pickUpPointOrders = pickUpPointOrders;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    public TypeOfPayment getTypeOfPayment() {
+        return typeOfPayment;
+    }
+
+    public void setTypeOfPayment(TypeOfPayment typeOfPayment) {
+        this.typeOfPayment = typeOfPayment;
+    }
+
+    public TypeOfDelivery getTypeOfDelivery() {
+        return typeOfDelivery;
+    }
+
+    public void setTypeOfDelivery(TypeOfDelivery typeOfDelivery) {
+        this.typeOfDelivery = typeOfDelivery;
     }
 }
