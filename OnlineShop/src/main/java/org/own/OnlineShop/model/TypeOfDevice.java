@@ -14,9 +14,9 @@ public class TypeOfDevice {
     @Column(name = "name")
     private String name;
 
-
+    @Lob
     @Column(name = "img")
-    private String img;
+    private byte[] img;
 
     @OneToMany(mappedBy = "typeCategory", fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)
@@ -37,11 +37,12 @@ public class TypeOfDevice {
         this.deviceTypeOfDevices = deviceTypeOfDevices;
     }
 
-    public String getImg() {
+
+    public byte[] getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(byte[] img) {
         this.img = img;
     }
 

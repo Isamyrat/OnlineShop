@@ -265,7 +265,7 @@
       <AutoCreated>1</AutoCreated>
     </sequence>
     <table id="179" parent="4" name="ADS">
-      <ObjectId>93</ObjectId>
+      <ObjectId>78</ObjectId>
     </table>
     <table id="180" parent="4" name="BASKET">
       <ObjectId>21</ObjectId>
@@ -274,13 +274,13 @@
       <ObjectId>61</ObjectId>
     </table>
     <table id="182" parent="4" name="BRAND">
-      <ObjectId>13</ObjectId>
+      <ObjectId>53</ObjectId>
     </table>
     <table id="183" parent="4" name="CATEGORY">
       <ObjectId>27</ObjectId>
     </table>
     <table id="184" parent="4" name="DEVICE">
-      <ObjectId>35</ObjectId>
+      <ObjectId>13</ObjectId>
     </table>
     <table id="185" parent="4" name="DEVICE_INFORMATION">
       <ObjectId>55</ObjectId>
@@ -298,10 +298,10 @@
       <ObjectId>69</ObjectId>
     </table>
     <table id="190" parent="4" name="SUBCATEGORY">
-      <ObjectId>17</ObjectId>
+      <ObjectId>35</ObjectId>
     </table>
     <table id="191" parent="4" name="TYPE">
-      <ObjectId>101</ObjectId>
+      <ObjectId>48</ObjectId>
     </table>
     <table id="192" parent="4" name="USER">
       <ObjectId>3</ObjectId>
@@ -344,7 +344,7 @@
     </column>
     <column id="200" parent="179" name="IMG">
       <Position>8</Position>
-      <DataType>JSON|0s</DataType>
+      <DataType>MEDIUMBLOB|0s</DataType>
     </column>
     <column id="201" parent="179" name="YEAR">
       <Position>9</Position>
@@ -360,25 +360,25 @@
       <DataType>BIGINT|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="204" parent="179" name="PRIMARY_KEY_FC">
-      <ObjectId>95</ObjectId>
+    <index id="204" parent="179" name="PRIMARY_KEY_C">
+      <ObjectId>91</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>68</SourceTextLength>
+      <SourceTextLength>67</SourceTextLength>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <AutoCreated>1</AutoCreated>
     </index>
-    <index id="205" parent="179" name="CONSTRAINT_INDEX_F">
-      <ObjectId>97</ObjectId>
+    <index id="205" parent="179" name="FK8DXQ4V3DXK61RDDBXLAPHOHMN_INDEX_C">
+      <ObjectId>102</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>75</SourceTextLength>
+      <SourceTextLength>92</SourceTextLength>
       <ColNames>CATEGORY_ID</ColNames>
       <AutoCreated>1</AutoCreated>
     </index>
-    <index id="206" parent="179" name="CONSTRAINT_INDEX_FC">
-      <ObjectId>99</ObjectId>
+    <index id="206" parent="179" name="FKNH2EC7OSFJPF2RPUV552GNU1_INDEX_C">
+      <ObjectId>104</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>72</SourceTextLength>
+      <SourceTextLength>87</SourceTextLength>
       <ColNames>USER_ID</ColNames>
       <AutoCreated>1</AutoCreated>
     </index>
@@ -516,7 +516,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -524,7 +524,7 @@
     <foreign-key id="227" parent="181" name="FKCAPFE5M8MFYKW8BRVD2NQRLNT">
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -558,13 +558,13 @@
     </column>
     <column id="232" parent="182" name="IMG">
       <Position>3</Position>
-      <DataType>JSON|0s</DataType>
+      <DataType>MEDIUMBLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="233" parent="182" name="PRIMARY_KEY_EC">
-      <ObjectId>15</ObjectId>
+    <index id="233" parent="182" name="PRIMARY_KEY_EC6">
+      <ObjectId>60</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>70</SourceTextLength>
+      <SourceTextLength>71</SourceTextLength>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <AutoCreated>1</AutoCreated>
@@ -625,7 +625,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TYPE_ID</ColNames>
       <RefTableName>TYPE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_64</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_64F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -633,7 +633,7 @@
     <foreign-key id="244" parent="183" name="FKO2THNHDQK8SJ74HK40K64KAP8">
       <ColNames>TYPE_ID</ColNames>
       <RefTableName>TYPE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_64</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_64F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -642,7 +642,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>BRAND_ID</ColNames>
       <RefTableName>BRAND</RefTableName>
-      <RefKeyName>PRIMARY_KEY_EC</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_EC6</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -650,7 +650,7 @@
     <foreign-key id="246" parent="183" name="FK57GPI2DTSM4EUF8W2RPI7ODGE">
       <ColNames>BRAND_ID</ColNames>
       <RefTableName>BRAND</RefTableName>
-      <RefKeyName>PRIMARY_KEY_EC</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_EC6</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -673,7 +673,7 @@
     </column>
     <column id="250" parent="184" name="IMG">
       <Position>4</Position>
-      <DataType>JSON|0s</DataType>
+      <DataType>MEDIUMBLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="251" parent="184" name="COUNT">
@@ -716,39 +716,39 @@
       <DataType>SMALLINT|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="259" parent="184" name="PRIMARY_KEY_F6">
-      <ObjectId>37</ObjectId>
+    <index id="259" parent="184" name="PRIMARY_KEY_F">
+      <ObjectId>15</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>71</SourceTextLength>
+      <SourceTextLength>70</SourceTextLength>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <AutoCreated>1</AutoCreated>
     </index>
-    <index id="260" parent="184" name="CONSTRAINT_77FE_INDEX_F">
-      <ObjectId>110</ObjectId>
+    <index id="260" parent="184" name="FK2WMLX9D0KSIIMXQAFL2K1EIFF_INDEX_F">
+      <ObjectId>114</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>79</SourceTextLength>
+      <SourceTextLength>91</SourceTextLength>
       <ColNames>TYPE_ID</ColNames>
       <AutoCreated>1</AutoCreated>
     </index>
     <index id="261" parent="184" name="CONSTRAINT_77FE1_INDEX_F">
-      <ObjectId>39</ObjectId>
+      <ObjectId>143</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <SourceTextLength>81</SourceTextLength>
       <ColNames>BRAND_ID</ColNames>
       <AutoCreated>1</AutoCreated>
     </index>
     <index id="262" parent="184" name="CONSTRAINT_77FE12_INDEX_F">
-      <ObjectId>45</ObjectId>
+      <ObjectId>34</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <SourceTextLength>85</SourceTextLength>
       <ColNames>CATEGORY_ID</ColNames>
       <AutoCreated>1</AutoCreated>
     </index>
-    <index id="263" parent="184" name="CONSTRAINT_77FE125_INDEX_F">
-      <ObjectId>112</ObjectId>
+    <index id="263" parent="184" name="FKAYN3R2COGAVJ3WGHQ7RK5I59G_INDEX_F">
+      <ObjectId>134</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>89</SourceTextLength>
+      <SourceTextLength>98</SourceTextLength>
       <ColNames>SUBCATEGORY_ID</ColNames>
       <AutoCreated>1</AutoCreated>
     </index>
@@ -761,7 +761,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TYPE_ID</ColNames>
       <RefTableName>TYPE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_64</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_64F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -769,7 +769,7 @@
     <foreign-key id="266" parent="184" name="FK2WMLX9D0KSIIMXQAFL2K1EIFF">
       <ColNames>TYPE_ID</ColNames>
       <RefTableName>TYPE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_64</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_64F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -778,7 +778,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>BRAND_ID</ColNames>
       <RefTableName>BRAND</RefTableName>
-      <RefKeyName>PRIMARY_KEY_EC</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_EC6</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -786,7 +786,7 @@
     <foreign-key id="268" parent="184" name="FK4WXDKSCEJAY7FFHM3BVQTO8LA">
       <ColNames>BRAND_ID</ColNames>
       <RefTableName>BRAND</RefTableName>
-      <RefKeyName>PRIMARY_KEY_EC</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_EC6</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -812,7 +812,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>SUBCATEGORY_ID</ColNames>
       <RefTableName>SUBCATEGORY</RefTableName>
-      <RefKeyName>PRIMARY_KEY_A</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_AD</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -820,7 +820,7 @@
     <foreign-key id="272" parent="184" name="FKAYN3R2COGAVJ3WGHQ7RK5I59G">
       <ColNames>SUBCATEGORY_ID</ColNames>
       <RefTableName>SUBCATEGORY</RefTableName>
-      <RefKeyName>PRIMARY_KEY_A</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_AD</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -870,7 +870,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -878,7 +878,7 @@
     <foreign-key id="281" parent="185" name="FKLPKVFD0LBWT9FX44W6MP0FNJ2">
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -977,7 +977,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -985,7 +985,7 @@
     <foreign-key id="298" parent="186" name="FKQ455CMFD7VOHS23RQ3XP015UV">
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -1146,7 +1146,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>DEVICE_Id</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -1233,7 +1233,7 @@
       <NameSurrogate>1</NameSurrogate>
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -1241,7 +1241,7 @@
     <foreign-key id="341" parent="189" name="FKEGYAYE8YSE19ENQYY7BQIOUFL">
       <ColNames>DEVICE_ID</ColNames>
       <RefTableName>DEVICE</RefTableName>
-      <RefKeyName>PRIMARY_KEY_F6</RefKeyName>
+      <RefKeyName>PRIMARY_KEY_F</RefKeyName>
       <RefColNames>ID</RefColNames>
       <OnDelete>restrict</OnDelete>
       <OnUpdate>restrict</OnUpdate>
@@ -1280,19 +1280,19 @@
     </column>
     <column id="347" parent="190" name="IMG">
       <Position>4</Position>
-      <DataType>JSON|0s</DataType>
+      <DataType>MEDIUMBLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="348" parent="190" name="PRIMARY_KEY_A">
-      <ObjectId>19</ObjectId>
+    <index id="348" parent="190" name="PRIMARY_KEY_AD">
+      <ObjectId>37</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>75</SourceTextLength>
+      <SourceTextLength>76</SourceTextLength>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <AutoCreated>1</AutoCreated>
     </index>
     <index id="349" parent="190" name="CONSTRAINT_CD_INDEX_A">
-      <ObjectId>32</ObjectId>
+      <ObjectId>39</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <SourceTextLength>86</SourceTextLength>
       <ColNames>CATEGORY_ID</ColNames>
@@ -1332,13 +1332,13 @@
     </column>
     <column id="355" parent="191" name="IMG">
       <Position>3</Position>
-      <DataType>JSON|0s</DataType>
+      <DataType>MEDIUMBLOB|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="356" parent="191" name="PRIMARY_KEY_64">
-      <ObjectId>102</ObjectId>
+    <index id="356" parent="191" name="PRIMARY_KEY_64F">
+      <ObjectId>83</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>69</SourceTextLength>
+      <SourceTextLength>70</SourceTextLength>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <AutoCreated>1</AutoCreated>

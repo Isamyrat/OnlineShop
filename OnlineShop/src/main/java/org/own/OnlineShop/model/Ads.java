@@ -28,8 +28,9 @@ public class Ads {
     @Column(name = "create_at")
     private Date createAt;
 
+    @Lob
     @Column(name = "img")
-    private String img;
+    private byte[] img;
 
     @Column(name = "year")
     private Date year;
@@ -101,11 +102,11 @@ public class Ads {
         this.createAt = createAt;
     }
 
-    public String getImg() {
+    public byte[] getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(byte[] img) {
         this.img = img;
     }
 

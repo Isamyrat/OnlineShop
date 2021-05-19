@@ -19,9 +19,9 @@ public class Subcategory {
     @JoinColumn(name = "category_id", nullable = false)
     private Category categorySubcategory;
 
-
+    @Lob
     @Column(name = "img")
-    private String img;
+    private byte[] img;
 
     @OneToMany(mappedBy = "subcategoryDevice", fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)
@@ -38,11 +38,11 @@ public class Subcategory {
         this.deviceSubcategory = deviceSubcategory;
     }
 
-    public String getImg() {
+    public byte[] getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(byte[] img) {
         this.img = img;
     }
 

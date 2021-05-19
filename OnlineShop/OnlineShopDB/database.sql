@@ -21,15 +21,17 @@ create table Personal_Information
 );
 create table TYPE
 (
-    ID            smallint auto_increment
+    ID   SMALLINT auto_increment
         primary key,
-    name        VARCHAR(100)
+    NAME VARCHAR(100),
+    IMG  JSON not null
 );
 create table BRAND
 (
-    ID            int auto_increment
+    ID   INT auto_increment
         primary key,
-    name        VARCHAR(100)
+    NAME VARCHAR(100),
+    IMG  JSON not null
 );
 create table BASKET
 (
@@ -54,7 +56,9 @@ create table SUBCATEGORY
         primary key,
     NAME        VARCHAR(100),
     CATEGORY_ID SMALLINT not null
-        references CATEGORY (ID)
+        references CATEGORY (ID),
+    IMG         JSON     not null,
+        foreign key (CATEGORY_ID) references CATEGORY (ID)
 );
 create table Device
   (
@@ -124,16 +128,23 @@ create table Pick_Up_Point
 );
 create table ORDERS
 (
-    ID            BIGINT auto_increment
+    ID                        BIGINT auto_increment
         primary key,
-    create_at timestamp not null,
-    USER_id BIGINT not null,
-    DEVICE_id BIGINT not null,
-    pick_up_point_id smallint,
-    foreign key (pick_up_point_id) references PICK_UP_POINT (ID),
-    foreign key (USER_id) references USER (ID),
-    foreign key (DEVICE_id) references DEVICE (ID)
+    CREATE_AT                 TIMESTAMP   not null,
+    USER_ID                   BIGINT      not null
+        references USER (ID),
+    DEVICE_ID                 BIGINT      not null
+        references DEVICE (ID),
+    PICK_UP_POINT_ID          SMALLINT
+        references PICK_UP_POINT (ID),
+    STATUS                    VARCHAR(20) not null,
+    TYPE_OF_PAYMENT           VARCHAR(20) not null,
+    TYPE_OF_DELIVERY_SERVICES VARCHAR(20),
+        foreign key (USER_ID) references USER (ID),
+        foreign key (PICK_UP_POINT_ID) references PICK_UP_POINT (ID),
+        foreign key (DEVICE_ID) references DEVICE (ID)
 );
+
 create table ADS
 (
     ID            bigint auto_increment

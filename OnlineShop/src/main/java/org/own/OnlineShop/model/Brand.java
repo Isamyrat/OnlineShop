@@ -13,9 +13,9 @@ public class Brand {
     @Column(name = "name")
     private String name;
 
-
+    @Lob
     @Column(name = "img")
-    private String img;
+    private byte[] img;
 
     @OneToMany(mappedBy = "brandCategory", fetch = FetchType.LAZY,
             cascade = CascadeType.ALL)
@@ -36,11 +36,11 @@ public class Brand {
         this.deviceBrand = deviceBrand;
     }
 
-    public String getImg() {
+    public byte[] getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(byte[] img) {
         this.img = img;
     }
 

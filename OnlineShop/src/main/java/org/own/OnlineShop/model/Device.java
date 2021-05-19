@@ -18,8 +18,9 @@ public class Device {
     @Column(name = "year")
     private Date year;
 
+    @Lob
     @Column(name = "img")
-    private String img;
+    private byte[] img;
 
     @Column(name = "count")
     private Integer count;
@@ -135,11 +136,11 @@ public class Device {
         this.year = year;
     }
 
-    public String getImg() {
+    public byte[] getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(byte[] img) {
         this.img = img;
     }
 
