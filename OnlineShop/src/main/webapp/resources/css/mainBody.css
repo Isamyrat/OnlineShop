@@ -52,7 +52,13 @@ div.h4 {
     width: 500px;
     height: 400px;
     border: black solid 2px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #d7d3d3;
+    margin-left: -110px;
+
 }
+
 .button_category{
     color: black;
     padding: 10px 24px;
@@ -61,15 +67,17 @@ div.h4 {
     font-weight: 300;
     font-family: "Times New Roman";
 }
-.outer{
-    display: flex;
-    width: 500px;
-    height: 400px;
-    text-align: center;
-    vertical-align: middle;
-    background-color: #d7d3d3;
-    margin-left: -110px;
 
+
+.sub_category{
+
+}
+.button_sub_category{
+    height: 560px;
+    width: 860px;
+    color: black;
+    background-color: #e7e7e7;
+    border: 1px solid black;
 }
 .button_block{
     border: black solid 2px;
@@ -90,27 +98,85 @@ div.h4 {
     text-align:center;
     padding: 10px;
 }
-.button_outer a{
-    width: 1200px;
-    height: 10px;
+.button_outer{
+    display: inline;
 }
 .button_type{
-    display: inline;
-    border: 1px solid black;
-    color: white;
-    padding: 5px;
     float: left;
+    padding: 10px 24px;
+    margin-left: -100px;
+    font-size: 23px;
 }
 .button_brand{
-    border: 1px solid black;
-    color: white;
-    padding: 10px 24px;
     float: left;
-
+    padding: 10px 24px;
+    margin-left: -100px;
+    font-size: 23px;
 }
 .buttons {
+    margin-right: 37px;
+    margin-left: 3px;
+    color: black;
+    width: 90px;
+    height: 50px;
+}
+.buttons2{
 
+   margin-left: 30px;
+    color: black;
+    width: 90px;
+    height: 50px;
+}
 
+.under{
+    position: absolute;
+    top: 60%;
+    left:3%;
+}
+.under1{
+    position: absolute;
+    top: 60%;
+    left:13%;
+}
+.under2{
+    position: absolute;
+    top: 60%;
+    left:22%;
+}
+.under3{
+    position: absolute;
+    top: 60%;
+    left:32%;
+}
+.under4{
+    position: absolute;
+    top: 60%;
+    left:41%;
+}
+.under5{
+    position: absolute;
+    top: 60%;
+    left:53%;
+}
+.under6{
+    position: absolute;
+    top: 60%;
+    left:60%;
+}
+.under7{
+    position: absolute;
+    top: 60%;
+    left:71%;
+}
+.under8{
+    position: absolute;
+    top: 60%;
+    left:80%;
+}
+.under9{
+    position: absolute;
+    top: 60%;
+    left:90%;
 }
 .btn {
     border-radius: 20px;
@@ -172,6 +238,6 @@ a:hover {
 }
 
 .button_images{
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 70px;
 }

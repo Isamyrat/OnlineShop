@@ -12,7 +12,7 @@ body {
 
 .wrapper {
     box-shadow: 10px 10px 80px #c9fab2;
-    max-width: 800px;
+    max-width: 1500px;
     margin: 30px auto
 }
 
@@ -44,7 +44,133 @@ div.h4 {
     font-family: 'Lora', serif;
     margin: 0
 }
+.outer-wrapper{
+    display: table;
+}
+.category{
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    border: black solid 2px;
+}
+.button_category{
+    color: black;
+    padding: 10px 24px;
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Times New Roman";
+}
+.outer{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #d7d3d3;
+    margin-left: -110px;
 
+}
+.button_block{
+    border: black solid 2px;
+    color: black;
+    padding: 10px 24px;
+    font-size: 20px;
+    font-weight: 300;
+    height: 50px;
+    font-family: "Times New Roman";
+}
+.blocks{
+    position: relative;
+    display: inline-block;
+    width:110px;
+    height:50px;
+    background:#f1f1f1;
+    float:right;
+    text-align:center;
+    padding: 10px;
+}
+.button_outer{
+    display: inline;
+    width: 1200px;
+    height: 40px;
+}
+.button_type{
+    float: left;
+    padding: 10px 24px;
+    margin-left: -100px;
+    font-size: 23px;
+}
+.button_brand{
+    float: left;
+    padding: 10px 24px;
+    margin-left: -100px;
+    font-size: 23px;
+}
+.buttons {
+
+    margin: 0px 37px 0px 3px;
+    color: black;
+    width: 90px;
+    height: 50px;
+}
+.buttons2 {
+
+    margin: 1em 2em;
+    color: black;
+    width: 90px;
+    height: 50px;
+}
+.under{
+    position: absolute;
+    top: 60%;
+    left:3%;
+}
+.under1{
+    position: absolute;
+    top: 60%;
+    left:13%;
+}
+.under2{
+    position: absolute;
+    top: 60%;
+    left:22%;
+}
+.under3{
+    position: absolute;
+    top: 60%;
+    left:32%;
+}
+.under4{
+    position: absolute;
+    top: 60%;
+    left:41%;
+}
+.under5{
+    position: absolute;
+    top: 60%;
+    left:53%;
+}
+.under6{
+    position: absolute;
+    top: 60%;
+    left:60%;
+}
+.under7{
+    position: absolute;
+    top: 60%;
+    left:71%;
+}
+.under8{
+    position: absolute;
+    top: 60%;
+    left:80%;
+}
+.under9{
+    position: absolute;
+    top: 60%;
+    left:90%;
+}
 .btn {
     border-radius: 20px;
     font-size: 0.8rem;
@@ -103,18 +229,8 @@ a:hover {
         font-size: 0.75rem
     }
 }
-.buttons {
-    background-color: #e7e7e7;
-    color: black;
-    border-radius: 2px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    border: 2px solid #000000;
-}
+
 .button_images{
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 70px;
 }
