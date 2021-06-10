@@ -4,381 +4,276 @@
     <title>OnlineShop</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="../../../resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../resources/css/header.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../../resources/css/mainPage.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.rtl.min.css">
     <link rel="stylesheet" href="../../../resources/css/footer.css">
-    <link rel="stylesheet" href="../../../resources/css/mainBody.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-    <script src="../../../resources/js/jquery-1.7.2.min.js"></script>
-    <script src="../../../resources/js/jquery.js"></script>
-    <script src="../../../resources/js/bootstrap.min.js"></script>
-    <script src="../../../resources/js/header.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="script" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
-    <link rel="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="../../../resources/css/bootstrap/bootstrap.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.min.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.esm.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.esm.min.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.bundle.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../../resources/js/jquery-1.7.2.min.js"></script>
+    <script src="../../../resources/js/jquery.js"></script>
+
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">OnlineShop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                <select class="form-select form-select-sm ">
+                    <option selected>English</option>
+                    <option value="1">Russian</option>
+                    <option value="2">English</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
 
-<!-- Header -->
-<header class="header">
-    <!-- Top Bar -->
-    <div class="top_bar">
-        <div class="container">
-            <div class="row">
-                <div class="col d-flex flex-row">
-                    <div class="top_bar_contact_item">
-                        <div class="top_bar_icon"><img
-                                src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918577/phone.png"
-                                alt=""></div>
-                        +375-25-777-77-77
-                    </div>
-                    <div class="top_bar_contact_item">
-                        <div class="top_bar_icon"><img
-                                src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png" alt="">
-                        </div>
-                        <a href="mailto:fastsales@gmail.com">infoEuroShop@gmail.com</a>
-                    </div>
-                    <div class="top_bar_content ml-auto">
-                        <div class="top_bar_menu">
-                            <ul class="standard_dropdown top_bar_dropdown">
-                                <li><a href="#">English<i class="fas fa-chevron-down"></i></a>
-                                    <ul>
-                                        <li><a href="#">Italian</a></li>
-                                        <li><a href="#">Spanish</a></li>
-                                        <li><a href="#">Japanese</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="top_bar_user">
-                            <div class="user_icon"><img
-                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg"
-                                    alt=""></div>
-                            <div><a href="#">Register</a></div>
-                            <div><a href="#">Sign in</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- Header Main -->
-    <div class="header_main">
-        <div class="container">
-            <div class="row">
-                <!-- Logo -->
-                <div class="col-lg-2 col-sm-3 col-3 order-1">
-                    <div class="logo_container">
-                        <div class="logo"><a href="#">EuroShop</a></div>
-                    </div>
-                </div> <!-- Search -->
-                <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
-                    <div class="header_search">
-                        <div class="header_search_content">
-                            <div class="header_search_form_container">
-                                <form action="#" class="header_search_form clearfix"><input type="search"
-                                                                                            required="required"
-                                                                                            class="header_search_input"
-                                                                                            placeholder="Search for products...">
-                                    <div class="custom_dropdown" style="display: none;">
-                                        <div class="custom_dropdown_list"><span
-                                                class="custom_dropdown_placeholder clc"></span> <i
-                                                class="fas fa-chevron-down"></i>
-                                            <ul class="custom_list clc">
-                                                <li></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="header_search_button trans_300" value="Submit"><img
-                                            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918770/search.png"
-                                            alt=""></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- Wishlist -->
-                <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
-                    <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
-                        <div class="cart">
-                            <div class="cart_container d-flex flex-row align-items-center justify-content-end">
-                                <div class="cart_icon"><img
-                                        src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918704/cart.png"
-                                        alt="">
-                                    <div class="cart_count"><span>3</span></div>
-                                </div>
-                                <div class="cart_content">
-                                    <div class="cart_text"><a href="#">Cart</a></div>
-                                    <div class="cart_price">$185</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- Main Navigation -->
-    <nav class="main_nav">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="main_nav_content d-flex flex-row">
-                        <!-- Categories Menu -->
-                        <!-- Main Nav Menu -->
-                        <div class="main_nav_menu">
-                            <ul class="standard_dropdown main_nav_dropdown">
-                                <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="hassubs"><a href="#">Laptop<i class="fas fa-chevron-down"></i></a>
-                                    <ul>
-                                        <li><a href="#">Lenovo<i class="fas fa-chevron-down"></i></a>
-                                            <ul>
-                                                <li><a href="#">Lenovo 1<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Lenovo 3<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Lenovo 2<i class="fas fa-chevron-down"></i></a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">DELL<i class="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="#">APPLE<i class="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="#">HP<i class="fas fa-chevron-down"></i></a></li>
-                                    </ul>
-                                </li>
-                                <li class="hassubs"><a href="#">Featured Brands<i
-                                        class="fas fa-chevron-down"></i></a>
-                                    <ul>
-                                        <li><a href="#">APPLE<i class="fas fa-chevron-down"></i></a>
-                                            <ul>
-                                                <li><a href="#">Laptop<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Mobiles<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Ipads<i class="fas fa-chevron-down"></i></a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Samsung<i class="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="#">Lenovo<i class="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="#">DELL<i class="fas fa-chevron-down"></i></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div> <!-- Menu Trigger -->
-                        <div class="menu_trigger_container ml-auto">
-                            <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
-                                <div class="menu_burger">
-                                    <div class="menu_trigger_text">menu</div>
-                                    <div class="cat_burger menu_burger_inner">
-                                        <span></span><span></span><span></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav> <!-- Menu -->
-    <div class="page_menu">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="page_menu_content">
-                        <div class="page_menu_search">
-                            <form action="#"><input type="search" required="required" class="page_menu_search_input"
-                                                    placeholder="Search for products..."></form>
-                        </div>
-                        <ul class="page_menu_nav">
-                            <li class="page_menu_item has-children"><a href="#">Language<i
-                                    class="fa fa-angle-down"></i></a>
-                                <ul class="page_menu_selection">
-                                    <li><a href="#">English<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Italian<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Spanish<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Japanese<i class="fa fa-angle-down"></i></a></li>
-                                </ul>
-                            </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2"
+                aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                            <li class="page_menu_item"><a href="#">Home<i class="fa fa-angle-down"></i></a></li>
-                            <li class="page_menu_item has-children"><a href="#">Featured Brands<i
-                                    class="fa fa-angle-down"></i></a>
-                                <ul class="page_menu_selection">
-                                    <li><a href="#">Featured Brands<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                                </ul>
-                            </li>
-                            <li class="page_menu_item has-children"><a href="#">Trending Styles<i
-                                    class="fa fa-angle-down"></i></a>
-                                <ul class="page_menu_selection">
-                                    <li><a href="#">Trending Styles<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                                    <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="menu_contact">
-                            <div class="menu_contact_item">
-                                <div class="menu_contact_icon"><img src="images/phone_white.png" alt=""></div>
-                                +375-25-777-77-77
-                            </div>
-                            <div class="menu_contact_item">
-                                <div class="menu_contact_icon"><img src="images/mail_white.png" alt=""></div>
-                                <a href="mailto:fastsales@gmail.com">infoEuroShop@gmail.com</a>
-                            </div>
+        <ul class="nav nav-tabs align-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="/"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">Home
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="/listTypeOfDevices"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">Catalog
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                        type="button" role="tab" aria-controls="profile" aria-selected="false">Profile
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">Contact
+                </button>
+            </li>
+
+        </ul>
+        <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+            <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+                <div class="cart">
+                    <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+                        <div class="cart_icon"><a href="#"><img
+                                src="../../../resources/images/icons8-fast-cart-64.png"
+                                alt=""></a>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</header>
+</nav>
 
 
-<div class="wrapper rounded bg-white">
-    <hr>
-    <div class="row px-sm-2 px-0 pt-3">
+<div class="container">
+    <div class="row">
+        <p>
+        <div class="col">
+            <a href="/listTypeOfDevices"><img src="../../../resources/images/call.png"
+                                              class="button_images"></a>
 
-        <div class="container">
-            <div class="button_outer">
-                <div class="button_brand">
+            <a href="/listTypeOfDevices"><img
+                    src="../../../resources/images/10-109090_download-mouse-and-keyboard-icon-clipart-computer-keyboard.png"
+                    class="button_images"></a>
 
-                    <a href="#" class="buttons"><img src="../../../resources/images/call.png"
-                                                     class="button_images"><label class="under">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/10-109090_download-mouse-and-keyboard-icon-clipart-computer-keyboard.png"
-                            class="button_images"><label class="under1">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/kisspng-drawing-refrigerator-kitchen-painting-refigerator-5b248860d58cb2.3365446315291208648747.jpg"
-                            class="button_images"><label class="under2">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/depositphotos_205223298-stock-illustration-relax-sofa-icon-simple-style.jpg"
-                            class="button_images"><label class="under3">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/DLjB5Cp_-AK5myYy3Npnqhvnc6Oy52Xa0E00ZCFhO7RoJ7DTLkyZwqR7GsH0PlKXtr6BfkCHmGi5r49VyM5gTR1d4KTfqmnH2Q7jwW958VjYRMRxtWVnfpA9wUQgte7A27HU84z9HIXQCn8GM-8jwEa6Q-mQoPs-jQ.png"
-                            class="button_images"><label class="under4">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/68bd45ecb8a1f7734cb230d54b0e38ad.png"
-                            class="button_images"><label class="under5">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img src="../../../resources/images/unnamed.jpg"
-                                                     class="button_images"><label class="under6">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/tennis-player-beach-tennis-sport-ball-tennis-sport-sports-equipment-silhouette.png"
-                            class="button_images"><label class="under7">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/ddffe43a88d8f5db4c2ffd3bb99c5e43.png"
-                            class="button_images"><label class="under8">Nerch</label>
-                    </a>
-                    <a href="#" class="buttons"><img
-                            src="../../../resources/images/3e232089ccdd3b0527a8f5869c029c59.png"
-                            class="button_images"><label class="under9">Nerch</label>
-                    </a>
-                </div>
-            </div>
+            <a href="/listTypeOfDevices"><img
+                    src="../../../resources/images/kisspng-drawing-refrigerator-kitchen-painting-refigerator-5b248860d58cb2.3365446315291208648747.jpg"
+                    class="button_images"></a>
+
+            <a href="/listTypeOfDevices"><img src="../../../resources/images/68bd45ecb8a1f7734cb230d54b0e38ad.png"
+                                              class="button_images"></a>
+            <a href="/listTypeOfDevices"><img src="../../../resources/images/unnamed.jpg"
+                                              class="button_images"></a>
+
+
+            <a href="/listTypeOfDevices"><img
+                    src="../../../resources/images/DLjB5Cp_-AK5myYy3Npnqhvnc6Oy52Xa0E00ZCFhO7RoJ7DTLkyZwqR7GsH0PlKXtr6BfkCHmGi5r49VyM5gTR1d4KTfqmnH2Q7jwW958VjYRMRxtWVnfpA9wUQgte7A27HU84z9HIXQCn8GM-8jwEa6Q-mQoPs-jQ.png"
+                    class="button_images"></a>
+
+
+            <a href="/listTypeOfDevices"><img
+                    src="../../../resources/images/tennis-player-beach-tennis-sport-ball-tennis-sport-sports-equipment-silhouette.png"
+                    class="button_images"></a>
+            <a href="/listTypeOfDevices"><img src="../../../resources/images/ddffe43a88d8f5db4c2ffd3bb99c5e43.png"
+                                              class="button_images"></a>
+            <a href="/listTypeOfDevices"><img src="../../../resources/images/3e232089ccdd3b0527a8f5869c029c59.png"
+                                              class="button_images"></a>
         </div>
-        <div class="container">
-            <div class="button_outer">
-                <div class="button_type">
+        </p>
+        <p>
+        <div class="col">
+            <a href="/listBrandOfDevices"><img
+                    src="../../../resources/images/png-transparent-apple-logo-apple-logo-monochrome-computer-wallpaper.png"
+                    class="button_images"></a>
 
-                    <a href="#" style="width: 90px; height: 50px; color: black; margin-left:20px;"><img
-                            src="../../../resources/images/png-transparent-apple-logo-apple-logo-monochrome-computer-wallpaper.png"
-                            class="button_images">
-                    </a>
-                    <a href="#" class="buttons2"><img
-                            src="../../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                            class="button_images">
-                    </a>
-                    <a href="#" class="buttons2"><img
-                            src="../../../resources/images/Asus-Fonte.jpg"
-                            class="button_images">
-                    </a>
-                    <a href="#" class="buttons2"><img src="../../../resources/images/8b3b72b241aca836d9e281e18e45.jpg"
-                                                      class="button_images">
-                    </a>
-                    <a href="#" class="buttons2"><img
-                            src="../../../resources/images/Xiaomi_logo.png"
-                            class="button_images">
-                    </a>
-                    <a href="#" class="buttons2"><img
-                            src="../../../resources/images/9ee2ea81239733.5cf939edab226.png"
-                            class="button_images">
-                    </a>
-                    <a href="#" class="buttons2"><img
-                            src="../../../resources/images/kisspng-tesla-motors-tesla-model-3-stock-finance-tesla-logo-5b3ba45dd3c485.8404499315306353578674.jpg"
-                            class="button_images"/>
-                    </a>
-                    <a href="#" class="buttons2"><img
-                            src="../../../resources/images/unnamed(1).jpg"
-                            class="button_images" style="width: 120px; height: 90px">
-                    </a>
-                    <a href="#" class="buttons2"><img
-                            src="../../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                            class="button_images">
-                    </a>
+            <a href="/listBrandOfDevices"><img
+                    src="../../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
+                    class="button_images"></a>
 
-                    <a href="#"
-                       style="width: 90px; height: 50px; color: black; margin-right:20px; margin-left: 20px"><img
-                            src="../../../resources/images/Beko_Away-1200x1200.jpg"
-                            class="button_images">
-                    </a>
+            <a href="/listBrandOfDevices"><img
+                    src="../../../resources/images/Asus-Fonte.jpg"
+                    class="button_images"></a>
 
-                </div>
-            </div>
+            <a href="/listBrandOfDevices"><img src="../../../resources/images/8b3b72b241aca836d9e281e18e45.jpg"
+                                               class="button_images"></a>
+            <a href="/listBrandOfDevices"><img src="../../../resources/images/Xiaomi_logo.png"
+                                               class="button_images"></a>
+
+
+            <a href="/listBrandOfDevices"><img
+                    src="../../../resources/images/9ee2ea81239733.5cf939edab226.png"
+                    class="button_images"></a>
+
+
+            <a href="/listBrandOfDevices"><img
+                    src="../../../resources/images/kisspng-tesla-motors-tesla-model-3-stock-finance-tesla-logo-5b3ba45dd3c485.8404499315306353578674.jpg"
+                    class="button_images"></a>
+            <a href="/listBrandOfDevices"><img src="../../../resources/images/unnamed(1).jpg"
+                                               class="button_images"></a>
+            <a href="/listBrandOfDevices"><img src="../../../resources/images/Beko_Away-1200x1200.jpg"
+                                               class="button_images"></a>
         </div>
-
-
-        <div class="container">
-            <div class="col-lg-4 col-md-4 col-xs-4">
-                <table class="outer-wrapper">
-                        <div class="category">
-                            <a href="#" class="button_category">Tinmwe</a>
-                            <a href="#" class="button_category">Tinmwe</a>
-                            <a href="#" class="button_category">Tinmwe</a>
-                            <a href="#" class="button_category">Tinmwe</a>
-                            <a href="#" class="button_category">Tinmwe</a>
-                            <a href="#" class="button_category">Tinmwe</a>
-                            <a href="#" class="button_category">Tinmwe</a>
-                            <a href="#" class="button_category">Tinmwe</a>
-                        </div>
-                </table>
-            </div>
-
-            <div class="col-lg-8 col-md-8 col-xs-8">
-                <div class="sub_category">
-                    <a href="#" class="button_sub_category">Tinmwe</a>
-                    <a href="#" class="button_sub_category">Tinmwe</a>
-                    <a href="#" class="button_sub_category">Tinmwe</a>
-                    <a href="#" class="button_sub_category">Tinmwe</a>
-                    <a href="#" class="button_sub_category">Tinmwe</a>
-                </div>
-            </div>
-        </div>
-
-
+        </p>
     </div>
 </div>
-<!--footer starts from here-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 outer-wrapper ">
+            <a href="#" class="button_category">Tinmwe</a>
+            <a href="#" class="button_category">Tinmwe</a>
+            <a href="#" class="button_category">Tinmwe</a>
+            <a href="#" class="button_category">Tinmwe</a>
+            <a href="#" class="button_category">Tinmwe</a>
+            <a href="#" class="button_category">Tinmwe</a>
+            <a href="#" class="button_category">Tinmwe</a>
+            <a href="#" class="button_category">Tinmwe</a>
+        </div>
+        <div class="col-md-9 sub_category col " style="width: 61%">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+            <!--   <a href="/listBrandOfDevices" class="button_sub_category" style="height: 120px">qwrwrwqrwqrwrwqrqwrwrwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>
+               <a href="/listBrandOfDevices" class="button_sub_category">qwrwrwqrwqrw rwqrqwrwrwqrwqrwrwqrqwrwr wqrwqrwrwqrqwrw rwqrwqrwrwqr</a>-->
+        </div>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="container bottom_border">
         <div class="row">
@@ -444,7 +339,7 @@
 
     <div class="container">
         <ul class="foote_bottom_ul_amrc">
-            <li><a href="#">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#">About</a></li>
         </ul>
         <!--foote_bottom_ul_amrc ends here-->
@@ -460,7 +355,5 @@
     </div>
 
 </footer>
-
-
 </body>
 </html>

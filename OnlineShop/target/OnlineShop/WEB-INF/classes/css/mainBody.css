@@ -52,7 +52,13 @@ div.h4 {
     width: 500px;
     height: 400px;
     border: black solid 2px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #d7d3d3;
+    margin-left: -110px;
+
 }
+
 .button_category{
     color: black;
     padding: 10px 24px;
@@ -61,15 +67,15 @@ div.h4 {
     font-weight: 300;
     font-family: "Times New Roman";
 }
-.outer{
-    display: flex;
-    width: 500px;
-    height: 400px;
-    text-align: center;
-    vertical-align: middle;
-    background-color: #d7d3d3;
-    margin-left: -110px;
 
+
+
+.button_sub_category{
+    height: 560px;
+    width: 860px;
+    color: black;
+    background-color: #e7e7e7;
+    border: 1px solid black;
 }
 .button_block{
     border: black solid 2px;
@@ -92,8 +98,6 @@ div.h4 {
 }
 .button_outer{
     display: inline;
-    width: 1200px;
-    height: 40px;
 }
 .button_type{
     float: left;
@@ -108,19 +112,20 @@ div.h4 {
     font-size: 23px;
 }
 .buttons {
-
-    margin: 0px 37px 0px 3px;
+    margin-right: 37px;
+    margin-left: 3px;
     color: black;
     width: 90px;
     height: 50px;
 }
-.buttons2 {
+.buttons2{
 
-    margin: 1em 2em;
+   margin-left: 30px;
     color: black;
     width: 90px;
     height: 50px;
 }
+
 .under{
     position: absolute;
     top: 60%;

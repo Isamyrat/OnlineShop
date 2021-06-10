@@ -1134,7 +1134,6 @@ select option {
         font-size: 16px
     }
 }
-
 @media only screen and (max-width: 991px) {
     .header_search {
         height: 50px
@@ -1349,4 +1348,8 @@ select option {
         padding-left: 25px;
         padding-right: 25px
     }
+}
+.top_bar_user {
+    display: inline-block;
+    margin-left: 555px;
 }

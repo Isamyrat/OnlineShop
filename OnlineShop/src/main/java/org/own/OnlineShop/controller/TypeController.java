@@ -38,9 +38,21 @@ public class TypeController {
     public String showTypeOfDevices(Model model){
         logger.info("GET request /login");
 
+/*
         model.addAttribute("typeOfDevices", typeOfDeviceService.getAllTypes());
-        return "type/showTypes";
+*/
+        return "type/secondPage";
     }
+    @GetMapping("/listBrandOfDevices")
+    public String showBrandOfDevices(Model model){
+        logger.info("GET request /login");
+
+/*
+        model.addAttribute("typeOfDevices", typeOfDeviceService.getAllTypes());
+*/
+        return "type/secondPage";
+    }
+
 
     @GetMapping("/product/display/{id}")
     @ResponseBody
