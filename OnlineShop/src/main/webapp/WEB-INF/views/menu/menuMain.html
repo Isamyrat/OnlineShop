@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OnlineShop</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../../resources/css/menu.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/footer.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="../../../resources/css/bootstrap/bootstrap.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.min.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.esm.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.esm.min.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.bundle.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../../resources/js/jquery-1.7.2.min.js"></script>
+    <script src="../../../resources/js/jquery.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">OnlineShop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                <select class="form-select form-select-sm ">
+                    <option selected>English</option>
+                    <option value="1">Russian</option>
+                    <option value="2">English</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2"
+                aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="nav nav-tabs align-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="/"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">Home
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link " data-bs-toggle="tab" data-bs-target="/listTypeOfDevices"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">Catalog
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                        type="button" role="tab" aria-controls="profile" aria-selected="false">Profile
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">Contact
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="menu-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">Menu
+                </button>
+            </li>
+
+        </ul>
+        <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+            <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+                <div class="cart">
+                    <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+                        <div class="cart_icon"><a href="#"><img
+                                src="../../../resources/images/icons8-fast-cart-64.png"
+                                alt=""></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-xxl">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+                                                                   data-abc="true"><i class="fa fa-bug"></i>Button
+            Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+            <a href="#" class="highlight-button btn btn-large button xs-margin-bottom-five"
+               data-abc="true"><i class="fa fa-comment"></i>Button
+                Large</a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container bottom_border">
+        <div class="row">
+            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                <!--headin5_amrc-->
+                <p class="mb10">EuroShop</p>
+                <p><i class="fa fa-location-arrow"></i> Minsk, Bisuness Center </p>
+                <p><i class="fa fa-phone"></i> +375-25-777-77-77 </p>
+                <p><i class="fa fa fa-envelope"></i> infoEuroShop@gmail.com </p>
+
+
+            </div>
+
+
+            <div class=" col-sm-4 col-md  col-6 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Brands</h5>
+                <!--headin5_amrc-->
+                <ul class="footer_ul_amrc">
+                    <li><a href="#">Adidas</a></li>
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">HP</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Bosch</a></li>
+                    <li><a href="#">Logitech</a></li>
+                </ul>
+                <!--footer_ul_amrc ends here-->
+            </div>
+
+
+            <div class=" col-sm-4 col-md  col-6 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Types</h5>
+                <!--headin5_amrc-->
+                <ul class="footer_ul_amrc">
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Earphones</a></li>
+                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Jackets</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Watches</a></li>
+                </ul>
+                <!--footer_ul_amrc ends here-->
+            </div>
+
+
+            <div class=" col-sm-4 col-md  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+                <!--headin5_amrc ends here-->
+
+                <ul class="footer_ul2_amrc">
+                    <li><a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a>
+                        <p>Instagram</p></li>
+                    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                        <p>Twitter</p></li>
+                    <li><a href="#"><i class="fab fa-facebook fleft padding-right"></i> </a>
+                        <p>Facebook</p></li>
+                </ul>
+                <!--footer_ul2_amrc ends here-->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <ul class="foote_bottom_ul_amrc">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center">Copyright @2021 | Designed With by <a href="#">EuroShop</a></p>
+
+        <ul class="social_footer_ul">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <!--social_footer_ul ends here-->
+    </div>
+
+</footer>
+</body>
+</html>

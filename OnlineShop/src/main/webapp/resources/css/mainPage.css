@@ -42,7 +42,6 @@
     padding: 10px 30px 10px 30px;
 
 }
-.card{
-    width: 250px;
-    display: inline-block;
+.cards{
+    padding: 10px;
 }

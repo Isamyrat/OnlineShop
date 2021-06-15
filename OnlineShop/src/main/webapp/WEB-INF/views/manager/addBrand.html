@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Type</title>
+</head>
+<body>
+
+<label>
+    Add new type
+</label>
+<form enctype="multipart/form-data" th:action="@{/saveBrand}" method="post" >
+    <label th:for="name">Name of brand</label>
+    <label>
+        <input  name="name" type="text">
+    </label>
+    </br>
+    <label th:for="img">Img of brand</label>
+    <input type="file"  accept="image/*" name="file"  >
+    </br> </br> </br>
+    <td>
+        <input type="submit" th:value="Add">
+    </td>
+</form>
+
+</body>
+</html>

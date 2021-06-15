@@ -1,3 +1,11 @@
+.card {
+    width: 190px;
+    height: 230px;
+    display: inline-block;
+}
+.col{
+    padding: 10px;
+}
 .form-select{
     width: 50px;
 }
@@ -42,6 +50,4 @@
     padding: 10px 30px 10px 30px;
 
 }
-.cards{
-    padding: 10px;
-}
+

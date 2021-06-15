@@ -14,17 +14,19 @@ import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
+import javax.servlet.MultipartConfigElement;
+
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"org.own.OnlineShop.controller"})
 public class WebConfig implements WebMvcConfigurer {
-    @Bean
+  /*  @Bean
     public MultipartResolver multipartResolver() {
         return new CommonsMultipartResolver();
     }
-
+*/
     @Override
     public void addResourceHandlers(final ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**")
@@ -59,5 +61,12 @@ public class WebConfig implements WebMvcConfigurer {
         resolver.setContentType("text/html; charset=UTF-8");
         resolver.setCache(false);
         return resolver;
+    }
+    @Bean(name = "multipartResolver")
+    public CommonsMultipartResolver multipartResolver() {
+        CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
+        multipartResolver.setMaxUploadSize(-1);
+        return multipartResolver;
+
     }
 }

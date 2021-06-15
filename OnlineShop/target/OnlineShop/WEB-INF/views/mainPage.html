@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>OnlineShop</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -109,16 +109,19 @@
 </nav>
 
 
-
-
 <div class="container">
     <div class="row">
         <p>
-        <div class="col">
-            <a href="/listTypeOfDevices"><img src="../../resources/images/call.png"
-                             class="button_images"></a>
+        <div class="col" th:each="t : ${typeOfDevices}">
+        <label th:text="${t.name}"></label>
+       <!-- <a href="/listTypeOfDevices"><img th:src="/product/display/${t.id}"
+                                          class="button_images" alt="types"></a>-->
 
-            <a href="/listTypeOfDevices"><img
+            <!--
+                        <label th:text="${t.img}"></label>
+            -->
+
+           <!-- <a href="/listTypeOfDevices"><img
                     src="../../resources/images/10-109090_download-mouse-and-keyboard-icon-clipart-computer-keyboard.png"
                     class="button_images"></a>
 
@@ -127,9 +130,9 @@
                     class="button_images"></a>
 
             <a href="/listTypeOfDevices"><img src="../../resources/images/68bd45ecb8a1f7734cb230d54b0e38ad.png"
-                             class="button_images"></a>
+                                              class="button_images"></a>
             <a href="/listTypeOfDevices"><img src="../../resources/images/unnamed.jpg"
-                             class="button_images"></a>
+                                              class="button_images"></a>
 
 
             <a href="/listTypeOfDevices"><img
@@ -141,10 +144,11 @@
                     src="../../resources/images/tennis-player-beach-tennis-sport-ball-tennis-sport-sports-equipment-silhouette.png"
                     class="button_images"></a>
             <a href="/listTypeOfDevices"><img src="../../resources/images/ddffe43a88d8f5db4c2ffd3bb99c5e43.png"
-                             class="button_images"></a>
+                                              class="button_images"></a>
             <a href="/listTypeOfDevices"><img src="../../resources/images/3e232089ccdd3b0527a8f5869c029c59.png"
-                             class="button_images"></a>
-        </div></p>
+                                              class="button_images"></a>-->
+        </div>
+        </p>
         <p>
         <div class="col">
             <a href="/listBrandOfDevices"><img
@@ -160,9 +164,9 @@
                     class="button_images"></a>
 
             <a href="/listBrandOfDevices"><img src="../../resources/images/8b3b72b241aca836d9e281e18e45.jpg"
-                             class="button_images"></a>
+                                               class="button_images"></a>
             <a href="/listBrandOfDevices"><img src="../../resources/images/Xiaomi_logo.png"
-                             class="button_images"></a>
+                                               class="button_images"></a>
 
 
             <a href="/listBrandOfDevices"><img
@@ -174,95 +178,85 @@
                     src="../../resources/images/kisspng-tesla-motors-tesla-model-3-stock-finance-tesla-logo-5b3ba45dd3c485.8404499315306353578674.jpg"
                     class="button_images"></a>
             <a href="/listBrandOfDevices"><img src="../../resources/images/unnamed(1).jpg"
-                             class="button_images"></a>
+                                               class="button_images"></a>
             <a href="/listBrandOfDevices"><img src="../../resources/images/Beko_Away-1200x1200.jpg"
-                             class="button_images"></a>
+                                               class="button_images"></a>
         </div>
         </p>
 
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../resources/images/samsung-electronics-bags-3bn-vietnam-project-license.jpg"
-                 class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="/addTypeOfDevice">Add types</a>
+<a href="/addBrandOfDevice">Add brand</a>
+
 <footer class="footer">
     <div class="container bottom_border">
         <div class="row">

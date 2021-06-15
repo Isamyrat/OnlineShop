@@ -24,7 +24,7 @@ public class TypeController {
     private static final Logger logger = LogManager.getLogger(TypeController.class);
 
 
-    @PostMapping("/addTypeOfDevice")
+    @PostMapping("/saveType")
     public String saveTypeOfDevice(@RequestParam("file")MultipartFile file,
                                    @RequestParam("name") String name){
         logger.info("GET request /login");
@@ -33,14 +33,17 @@ public class TypeController {
         return "redirect:/" ;
     }
 
+    @GetMapping("/addTypeOfDevice")
+    public String getCategory(Model model) {
+        model.addAttribute("type", new TypeOfDevice());
+        return "manager/addType";
+    }
 
     @GetMapping("/listTypeOfDevices")
     public String showTypeOfDevices(Model model){
         logger.info("GET request /login");
 
-/*
         model.addAttribute("typeOfDevices", typeOfDeviceService.getAllTypes());
-*/
         return "type/secondPage";
     }
     @GetMapping("/listBrandOfDevices")
