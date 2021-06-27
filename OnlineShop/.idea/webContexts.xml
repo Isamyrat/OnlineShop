@@ -3,11 +3,14 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account/profile.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/account" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/exa,ple.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainPage.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu/menuMain.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/product.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/products.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/shops.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test2.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type/secondPage.html" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type" />

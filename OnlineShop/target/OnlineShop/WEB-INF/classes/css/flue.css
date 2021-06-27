@@ -1,0 +1,20 @@
+.category_block button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+.category_block {
+
+    border-right: 0.5px solid black;
+}
+.flue_orders img{
+    width: 150px;
+    height: 100px;
+    border-radius: 2%;
+    border: 1px solid black;
+}
+
+.flue_orders a {
+    color: black;
+    text-decoration: none;
+}

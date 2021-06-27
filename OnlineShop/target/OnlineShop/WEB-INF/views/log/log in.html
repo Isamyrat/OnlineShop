@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OnlineShop</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.rtl.css">
+    <link rel="stylesheet" href="../../../resources/css/bootstrap/bootstrap-utilities.rtl.min.css">
+    <link rel="stylesheet" href="../../../resources/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="../../../resources/css/bootstrap/bootstrap.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.min.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.esm.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.esm.min.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.bundle.js"></script>
+    <script src="../../../resources/css/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../../resources/js/jquery-1.7.2.min.js"></script>
+    <script src="../../../resources/js/jquery.js"></script>
+    <link rel="stylesheet" href="../../../resources/css/product.css">
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded shadow-lg mb-3 bg-body">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">OnlineShop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catalog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Order</a>
+                </li>
+                <select class="form-select form-select-sm mb-3" aria-label=".form-select-sm example">
+                    <option selected>Language</option>
+                    <option value="English">English</option>
+                    <option value="Russian">Russian</option>
+                </select>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-cart2"></i></a>
+                </li>
+            </ul>
+            <hr>
+            <form class="d-flex">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<main class="d-flex align-items-center min-vh-100 py-3 py-md-0 ">
+    <div class="container block">
+        <div class="card login-card block">
+            <div class="row no-gutters">
+                <div class="col-md-5 col-xs-3">
+                    <img class="login-card-img" src="../../../resources/images/login.jpg" alt="login" >
+                </div>
+                <div class="col-md-7 col-xs-9">
+                    <div class="card-body">
+                        <div class="brand-wrapper">
+                            <img src="../../../resources/images/l" alt="logo" class="logo">
+                        </div>
+                        <p class="login-card-description">Sign into your account</p>
+                        <form action="#!">
+                            <div class="form-group">
+                                <label for="email" class="sr-only">Email</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email address">
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="password" class="sr-only">Password</label>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="***********">
+                            </div>
+                            <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
+                        </form>
+                        <a href="#!" class="forgot-password-link">Forgot password?</a>
+                        <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container bottom_border">
+        <div class="row">
+            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                <!--headin5_amrc-->
+                <p class="mb10">EuroShop</p>
+                <p><i class="fa fa-location-arrow"></i> Minsk, Bisuness Center </p>
+                <p><i class="fa fa-phone"></i> +375-25-777-77-77 </p>
+                <p><i class="fa fa fa-envelope"></i> infoEuroShop@gmail.com </p>
+
+
+            </div>
+
+
+            <div class=" col-sm-4 col-md  col-6 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Brands</h5>
+                <!--headin5_amrc-->
+                <ul class="footer_ul_amrc">
+                    <li><a href="#">Adidas</a></li>
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">HP</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">Bosch</a></li>
+                    <li><a href="#">Logitech</a></li>
+                </ul>
+                <!--footer_ul_amrc ends here-->
+            </div>
+
+
+            <div class=" col-sm-4 col-md  col-6 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Types</h5>
+                <!--headin5_amrc-->
+                <ul class="footer_ul_amrc">
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Earphones</a></li>
+                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Jackets</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Watches</a></li>
+                </ul>
+                <!--footer_ul_amrc ends here-->
+            </div>
+
+
+            <div class=" col-sm-4 col-md  col-12 col">
+                <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+                <!--headin5_amrc ends here-->
+
+                <ul class="footer_ul2_amrc">
+                    <li><a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a>
+                        <p>Instagram</p></li>
+                    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                        <p>Twitter</p></li>
+                    <li><a href="#"><i class="fab fa-facebook fleft padding-right"></i> </a>
+                        <p>Facebook</p></li>
+                </ul>
+                <!--footer_ul2_amrc ends here-->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <ul class="foote_bottom_ul_amrc">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center">Copyright @2021 | Designed With by <a href="#">EuroShop</a></p>
+
+        <ul class="social_footer_ul">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <!--social_footer_ul ends here-->
+    </div>
+
+</footer>
+</body>
+</html>

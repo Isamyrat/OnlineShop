@@ -1,0 +1,67 @@
+.btn {
+    display: inline-block;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    border: 1px solid transparent
+}
+
+.btn-round {
+    border-radius: 4px !important
+}
+
+.btn i {
+    margin-right: 5px
+}
+
+.btn.btn-large i {
+    font-size: 24px
+}
+
+.button {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.btn.btn-large {
+    font-size: 18px;
+    padding: 18px 35px
+}
+
+.highlight-button {
+    border: 2px solid #000;
+    display: inline-block;
+    padding: 8px 20px 9px;
+    font-size: 12px;
+    color: #000;
+    background-color: transparent
+}
+
+.highlight-button:hover {
+    background-color: #000;
+    border: 2px solid #000;
+    color: #ffffff;
+}
+
+.highlight-button i {
+    color: #000
+}
+
+.highlight-button:hover i {
+    color: #ffffff;
+}
+.card {
+    width: 190px;
+    height: 230px;
+    display: inline-block;
+}
+.col{
+    padding: 10px;
+}
+.form-select{
+    width: 50px;
+}
+.form-select-sm{
+    font-size: .850rem;
+}
+
+
